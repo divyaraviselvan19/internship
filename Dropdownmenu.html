@@ -1,14 +1,41 @@
-<style>
-    .dropdown:hover .menu {
-        display: block;
-    }
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .dropdown {
+            display: inline-block;
+        }
 
-    .menu {
-        display: none;
-    }
-</style>
-<div class="dropdown"> Menu<div class="menu">
-        <p>Item 1</p>
-        <p>Item 2</p>
+        button {
+            padding: 10px 20px;
+            background: green;
+            color: white;
+            border: none;
+        }
+        .menu {
+            display: none;
+            background: lightgray;
+        }
+
+        .dropdown:hover .menu {
+            display: block;
+        }
+        .menu div {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body bgcolor="#ff375">
+
+    <div class="dropdown">
+        <button>Menu</button>
+        <div class="menu">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
     </div>
-</div>
+</body>
+
+</html>
