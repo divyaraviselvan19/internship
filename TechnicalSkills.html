@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Skills Section</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: serif;
+        }
+
+        body {
+            background: black;
+            padding: 40px;
+            color: white;
+        }
+
+        .top-btn {
+            width: fit-content;
+            margin: auto;
+            padding: 20px 30px;
+            border: 2px solid gold;
+            border-radius: 30px;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: gold;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 50px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            color: black;
+            padding: 30px;
+            border-radius: 25px;
+        }
+
+        .card h2 {
+            font-size: 35px;
+            margin-bottom: 25px;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .tag {
+            background: #f3ead9;
+            color: #b8860b;
+            padding: 20px 20px;
+            border-radius: 25px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top-btn">
+        Skills & Expertise
+    </div>
+
+    <h1>Technical Skills</h1>
+
+    <p class="subtitle">
+        Technologies and tools I use for web development
+    </p>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>Programming</h2>
+
+            <div class="tags">
+                <div class="tag">C</div>
+                <div class="tag">C++</div>
+                <div class="tag">Java</div>
+                <div class="tag">Python</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Database</h2>
+
+            <div class="tags">
+                <div class="tag">MySQL</div>
+                <div class="tag">MongoDB</div>
+                <div class="tag">Firebase</div>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Cloud Services</h2>
+
+            <div class="tags">
+                <div class="tag">AWS</div>
+                <div class="tag">Google Cloud</div>
+                <div class="tag">Azure</div>
+                <div class="tag">Netlify</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>UI / UX Tools</h2>
+
+            <div class="tags">
+                <div class="tag">Figma</div>
+                <div class="tag">Adobe XD</div>
+                <div class="tag">Canva</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Frameworks</h2>
+
+            <div class="tags">
+                <div class="tag">React.js</div>
+                <div class="tag">Node.js</div>
+                <div class="tag">Bootstrap</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
