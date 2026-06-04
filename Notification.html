@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Notification Preferences</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f1f3f6;
+        }
+
+        .header {
+            background: white;
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .header ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+        }
+
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+
+        .sidebar {
+            width: 25%;
+            background: white;
+            padding: 30px;
+            border: 1px solid #ddd;
+        }
+
+        .sidebar h3 {
+            color: gray;
+            margin-bottom: 20px;
+        }
+
+        .main {
+            width: 75%;
+            background: white;
+            margin-left: 20px;
+            padding: 30px;
+            border: 1px solid #ddd;
+        }
+
+        .main h2 {
+            margin-bottom: 25px;
+        }
+
+        .item {
+            padding: 15px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .item input {
+            margin-right: 10px;
+        }
+
+        .item p {
+            color: gray;
+            font-size: 14px;
+            margin-left: 25px;
+        }
+
+        .right-box {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .circle {
+            width: 100px;
+            height: 100px;
+            background: red;
+            color: white;
+            border-radius: 50%;
+            margin: auto;
+            line-height: 100px;
+            font-size: 40px;
+        }
+
+        .msg {
+            color: red;
+            margin-top: 20px;
+        }
+
+        .unlock {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <ul>
+            <li>Electronics</li>
+            <li>TVs & Appliances</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>Baby & Kids</li>
+            <li>Home & Furniture</li>
+            <li>Sports, Books & More</li>
+            <li>Flights</li>
+            <li>Offer Zone</li>
+        </ul>
+    </div>
+
+    <div class="container">
+
+        <div class="sidebar">
+            <h3>NOTIFICATION PREFERENCES</h3>
+            <p>Desktop Notifications</p>
+        </div>
+
+        <div class="main">
+            <h2>Desktop Notifications</h2>
+
+            <div class="item">
+                <input type="checkbox" checked>
+                My Orders
+                <p>Latest updates on your orders</p>
+            </div>
+
+            <div class="item">
+                <input type="checkbox" checked>
+                Reminders
+                <p>Price Drops, Back-in-stock Products</p>
+            </div>
+
+            <div class="item">
+                <input type="checkbox" checked>
+                Recommendations by Flipkart
+                <p>Products and offers based on your interest</p>
+            </div>
+
+            <div class="item">
+                <input type="checkbox" checked>
+                New Offers
+                <p>Top Deals and more</p>
+            </div>
+
+            <div class="item">
+                <input type="checkbox" checked>
+                My Flipkart Community
+                <p>Profile updates, Newsletters</p>
+            </div>
+
+            <div class="item">
+                <input type="checkbox" checked>
+                Feedback and Review
+                <p>Ratings and Reviews</p>
+            </div>
+
+            <div class="right-box">
+                <div class="circle">🔕</div>
+
+                <p class="msg">
+                    Oops! You are missing out on important notifications.
+                </p>
+
+                <p class="unlock">
+                    Notifications > Allow
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
